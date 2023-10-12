@@ -1,0 +1,24 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/docker/
+
+# my-docker:
+#   host: 127.0.0.1
+#   port: 2375
+
+# my-docker:
+#   socket: /var/run/docker.sock
+docker-6632:
+  socket: /var/run/docker.sock
+
+docker-6618:
+  host: 192.168.66.18
+  port: 2376
+  tls:
+    keyFile: ./docker-certs/key.pem
+    caFile: ./docker-certs/ca.pem
+    certFile: ./docker-certs/cert.pem
+
+docker-8832:
+  host: 192.168.88.32
+  port: 2375

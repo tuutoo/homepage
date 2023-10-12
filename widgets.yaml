@@ -1,0 +1,27 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/widgets
+
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+
+- search:
+    provider: duckduckgo
+    target: _blank
+
+- weatherapi:
+    label: Home
+    latitude: 31.1823
+    longitude: 121.0071
+    units: metric
+    apiKey: {{HOMEPAGE_VAR_WEATHERAPI_KEY}}
+    cache: 5
+
+- datetime:
+    text_size: xl
+    format:
+      dateStyle: long
+      timeStyle: long
+      hour12: false
