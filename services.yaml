@@ -39,10 +39,6 @@
         href: http://192.168.66.18:5572/#/dashboard
         icon: rclone.png
         description: A command line program to sync files and directories.
-    - NAS-Tools:
-        href: http://192.168.66.18:3000/
-        icon: mdi-nas-#f0d453
-        description: Tools for network attached storage management.
     - Harbor:
         href: https://harbor.tuutoo.top:8443/
         icon: harbor.png
@@ -53,6 +49,10 @@
         href: http://192.168.66.18:32400/
         icon: plex.png
         description: A media server platform.
+    - NAS-Tools:
+        href: http://192.168.66.18:3000/
+        icon: mdi-nas-#f0d453
+        description: Tools for network attached storage management.
     - TaleBook:
         href:
         icon: /images/tale-book.png
