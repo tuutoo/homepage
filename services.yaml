@@ -80,23 +80,25 @@
         icon: nocodb.png
         description: A database interface tool.
 
-- Automation & Workflow:
-    - NodeRed:
-        href: http://192.168.66.18:1880/
-        icon: node-red.png
-        description: A flow-based development tool.
-
 - Download Tools:
     - qBittorrent:
         href: http://192.168.66.18:6363/
         icon: qbittorrent.png
         description: A BitTorrent client.
 
-- Home Automation:
+- Automation:
     - HomeAssistant:
         href: http://192.168.66.18:8123/
         icon: home-assistant.png
         description: A home automation platform.
+    - HomeBridge:
+        href: http://192.168.66.18:8581/
+        icon: homebridge.png
+        description: A home automation platform.
+    - NodeRed:
+        href: http://192.168.66.18:1880/
+        icon: node-red.png
+        description: A flow-based development tool.
 
 - Portainer:
     - Portainer-66.18:
