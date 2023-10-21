@@ -54,7 +54,7 @@
         icon: mdi-nas-#f0d453
         description: Tools for network attached storage management.
     - TaleBook:
-        href:
+        href: http://192.168.66.18:8787/
         icon: /images/tale-book.png
         description: An e-book reading and management tool.
 
