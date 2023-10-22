@@ -60,7 +60,7 @@
 
 - Development & Database Tools:
     - Alist:
-        href: http://192.168.66.18:8787/
+        href: http://192.168.66.18:5678/
         icon: /images/alist.png
         description: A listing tool for developers.
     - pgAdmin:
