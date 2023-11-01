@@ -75,6 +75,10 @@
         href: http://192.168.66.18:8055/
         icon: directus.png
         description: A headless CMS and API platform.
+    - Tooljet:
+        href: http://192.168.66.32:8083/
+        icon: tooljet.png
+        description: ToolJet is an open-source low-code framework.
     - NocoDb:
         href: http://192.168.66.18:1213/
         icon: nocodb.png
