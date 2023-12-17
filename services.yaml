@@ -25,6 +25,14 @@
         href: http://192.168.66.25/cgi-bin/luci/admin/services/openclash
         icon: openwrt.png
         description: A specific version of OpenWrt.
+    - iKuai88:
+        href: http://192.168.88.33:81/
+        icon: watchyourlan.png
+        description: An advanced routers and network management software.
+    - iKuai66:
+        href: http://192.168.66.26:81/
+        icon: watchyourlan.png
+        description: An advanced routers and network management software.
     - Nginx Proxy Manager:
         href: http://192.168.66.25:1181/
         icon: nginx-proxy-manager.png
