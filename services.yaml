@@ -88,7 +88,7 @@
         icon: tooljet.png
         description: ToolJet is an open-source low-code framework.
     - NocoDb:
-        href: http://192.168.66.18:1213/
+        href: http://192.168.66.32:1213/
         icon: nocodb.png
         description: A database interface tool.
 
@@ -108,7 +108,7 @@
         icon: homebridge.png
         description: A home automation platform.
     - NodeRed:
-        href: http://192.168.66.18:1880/
+        href: http://192.168.66.32:1880/
         icon: node-red.png
         description: A flow-based development tool.
 
