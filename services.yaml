@@ -19,10 +19,10 @@
         description: A fast and secure VPN solution.
     - OpenWrt-88:
         icon: openwrt.png
-        href: http://192.168.88.25/cgi-bin/luci/admin/services/openclash
+        href: http://192.168.88.25/cgi-bin/luci/admin/services
         description: A Linux OS for embedded devices.
     - OpenWrt-66:
-        href: http://192.168.66.25/cgi-bin/luci/admin/services/openclash
+        href: http://192.168.66.25/cgi-bin/luci/admin/services
         icon: openwrt.png
         description: A specific version of OpenWrt.
     - iKuai88:
