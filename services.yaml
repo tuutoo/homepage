@@ -13,8 +13,12 @@
         description: A Proxmox virtualization management solution.
 
 - Network & Security:
-    - WireGuard:
+    - WireGuard-88:
         href: http://192.168.88.25:51821/
+        icon: wireguard.png
+        description: A fast and secure VPN solution.
+    - WireGuard-66:
+        href: http://192.168.66.25:51821/
         icon: wireguard.png
         description: A fast and secure VPN solution.
     - OpenWrt-88:
