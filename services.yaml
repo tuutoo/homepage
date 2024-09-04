@@ -84,7 +84,7 @@
         icon: hasura.png
         description: A platform to build GraphQL apps.
     - Directus:
-        href: http://192.168.66.18:8055/
+        href: http://192.168.66.32:8055/
         icon: directus.png
         description: A headless CMS and API platform.
     - Tooljet:
@@ -124,10 +124,10 @@
         server: docker-6618
         container: portainer
         widget:
-            type: portainer
-            url: http://192.168.66.18:9000
-            env: 2
-            key: {{HOMEPAGE_VAR_PORTAINER_6618_KEY}}
+          type: portainer
+          url: http://192.168.66.18:9000
+          env: 2
+          key: { { HOMEPAGE_VAR_PORTAINER_6618_KEY } }
 
     - Portainer-66.32:
         icon: portainer.png
@@ -136,10 +136,10 @@
         server: docker-6632
         container: portainer
         widget:
-            type: portainer
-            url: http://192.168.66.32:9000
-            env: 2
-            key: {{HOMEPAGE_VAR_PORTAINER_6632_KEY}}
+          type: portainer
+          url: http://192.168.66.32:9000
+          env: 2
+          key: { { HOMEPAGE_VAR_PORTAINER_6632_KEY } }
 
     - Portainer-88.32:
         icon: portainer.png
@@ -148,7 +148,7 @@
         server: docker-8832
         container: portainer
         widget:
-            type: portainer
-            url: http://192.168.88.32:9000
-            env: 2
-            key: {{HOMEPAGE_VAR_PORTAINER_8832_KEY}}
+          type: portainer
+          url: http://192.168.88.32:9000
+          env: 2
+          key: { { HOMEPAGE_VAR_PORTAINER_8832_KEY } }
