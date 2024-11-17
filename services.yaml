@@ -4,11 +4,11 @@
 
 - Virtualization Management:
     - PVE-88:
-        href: https://pve88.sohot.app/
+        href: https://pve88.sohot.app:1443/
         icon: proxmox-light.png
         description: A Proxmox virtualization management solution.
     - PVE-66:
-        href: https://pve66.sohot.app/
+        href: https://pve66.sohot.app:1443/
         icon: proxmox-light.png
         description: A Proxmox virtualization management solution.
 
@@ -37,10 +37,10 @@
         href: http://192.168.66.26:81/
         icon: watchyourlan.png
         description: An advanced routers and network management software.
-    - Nginx Proxy Manager:
-        href: http://192.168.66.32:1181/
-        icon: nginx-proxy-manager.png
-        description: A GUI to manage Nginx proxy hosts.
+    - Traefik:
+        href: http://192.168.66.32:8088/
+        icon: traefik.svg
+        description: Traefik Dashboard.
 
 - Storage & Backup:
     - QNAP:
