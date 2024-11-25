@@ -70,7 +70,7 @@
         icon: /images/tale-book.png
         description: An e-book reading and management tool.
     - BaiduPan:
-        href: http://192.168.66.18:8092/files/
+        href: http://192.168.66.18:8092/files
         icon: /images/baidupan.png
         description: Sharedrive tool.
 
