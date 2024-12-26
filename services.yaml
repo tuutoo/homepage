@@ -4,11 +4,11 @@
 
 - Virtualization Management:
     - PVE-88:
-        href: https://pve88.sohot.app:1443/
+        href: https://pve88.sohot.app:4443/
         icon: proxmox-light.png
         description: A Proxmox virtualization management solution.
     - PVE-66:
-        href: https://pve66.sohot.app:1443/
+        href: https://pve66.sohot.app:4443/
         icon: proxmox-light.png
         description: A Proxmox virtualization management solution.
 
