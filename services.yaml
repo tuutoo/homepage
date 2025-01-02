@@ -38,7 +38,7 @@
         icon: watchyourlan.png
         description: An advanced routers and network management software.
     - Traefik:
-        href: http://192.168.66.32:8088/
+        href: http://192.168.66.32:8080/
         icon: traefik.svg
         description: Traefik Dashboard.
 
