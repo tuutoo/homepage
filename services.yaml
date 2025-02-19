@@ -94,7 +94,7 @@
         icon: /images/alist.png
         description: A listing tool for developers.
     - pgAdmin:
-        href: http://192.168.66.18:5433/login?next=%2F
+        href: http://192.168.66.32:5433/login?next=%2F
         icon: pgadmin.png
         description: A PostgreSQL management tool.
     - Hasura:
