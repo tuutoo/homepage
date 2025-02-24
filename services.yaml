@@ -24,7 +24,7 @@
             url: https://192.168.66.21:8006
             username: api@pam!homepage
             password: {{HOMEPAGE_VAR_PVE21_APIKEY}}
-            node: pve
+            node: pve21
     - PVE-22:
         href: https://pve22.home.sohot.app/
         icon: proxmox-light.png
@@ -35,7 +35,7 @@
             url: https://192.168.66.22:8006
             username: api@pam!homepage
             password: {{HOMEPAGE_VAR_PVE22_APIKEY}}
-            node: pve
+            node: pve-g12
 
 - Network & Security:
     - WireGuard-88:
