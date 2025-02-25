@@ -4,7 +4,7 @@
 
 - Virtualization Management:
     - PVE-88:
-        href: https://pve88.home.sohot.app/
+        href: https://pve88.home.sohot.app:4443/
         icon: proxmox-light.png
         description: A Proxmox virtualization management solution.
         ping: 192.168.88.21
@@ -15,7 +15,7 @@
             password: {{HOMEPAGE_VAR_PVE88_APIKEY}}
             node: pve
     - PVE-21:
-        href: https://pve21.home.sohot.app/
+        href: https://pve21.home.sohot.app:4443/
         icon: proxmox-light.png
         description: A Proxmox virtualization management solution.
         ping: 192.168.66.21
@@ -26,7 +26,7 @@
             password: {{HOMEPAGE_VAR_PVE21_APIKEY}}
             node: pve21
     - PVE-22:
-        href: https://pve22.home.sohot.app/
+        href: https://pve22.home.sohot.app:4443/
         icon: proxmox-light.png
         description: A Proxmox virtualization management solution.
         ping: 192.168.66.22
