@@ -43,7 +43,7 @@
         icon: wireguard.png
         description: A fast and secure VPN solution.
     - WireGuard-66:
-        href: http://192.168.66.25:51821/
+        href: http://192.168.66.25:51021/
         icon: wireguard.png
         description: A fast and secure VPN solution.
     - OpenWrt-88:
