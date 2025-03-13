@@ -35,7 +35,7 @@
             url: https://192.168.66.22:8006
             username: api@pam!homepage
             password: {{HOMEPAGE_VAR_PVE22_APIKEY}}
-            node: pve-g12
+            node: pve22
 
 - Network & Security:
     - WireGuard-88:
