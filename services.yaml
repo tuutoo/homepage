@@ -25,6 +25,17 @@
             username: api@pam!homepage
             password: {{HOMEPAGE_VAR_PVE22_APIKEY}}
             node: pve22
+    - PVE-88:
+        href: https://pve88.home.sohot.app:4443/
+        icon: proxmox-light.png
+        description: A Proxmox virtualization management solution.
+        ping: 192.168.66.88
+        widget:
+            type: proxmox
+            url: https://192.168.66.88:8006
+            username: api@pam!homepage
+            password: {{HOMEPAGE_VAR_PVE88_APIKEY}}
+            node: pve88
 
 - Network & Security:
     - WireGuard-88:
