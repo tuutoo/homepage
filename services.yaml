@@ -67,19 +67,23 @@
         icon: traefik.svg
         description: Traefik Dashboard.
 
-- Storage & Backup:
+- Services:
     - QNAP:
         href: http://192.168.66.18:5000/
-        icon: qnap-alt.png
+        icon: qnap.png
         description: A network attached storage solution.
     - Rclone:
         href: http://192.168.66.18:5572/#/dashboard
         icon: rclone.png
         description: A command line program to sync files and directories.
     - Harbor:
-        href: https://harbor.tuutoo.top:8443/
+        href: https://harbor.home.sohot.app:4443/
         icon: harbor.png
         description: An open-source container image registry.
+    - Rancher:
+        href: https://rancher.home.sohot.app:4443/
+        icon: rancher.png
+        description: Enterprise Kubernetes Management Platform & Software.
 
 - Media & Entertainment:
     - Plex:
