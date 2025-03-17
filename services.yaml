@@ -7,13 +7,13 @@
         href: https://pve21.home.sohot.app:4443/
         icon: proxmox-light.png
         description: A Proxmox virtualization management solution.
-        ping: 192.168.21.21
+        ping: 192.168.88.21
         widget:
             type: proxmox
-            url: https://192.168.21.21:8006
+            url: https://192.168.88.21:8006
             username: api@pam!homepage
             password: {{HOMEPAGE_VAR_PVE21_APIKEY}}
-            node: pve21
+            node: pve
     - PVE-22:
         href: https://pve22.home.sohot.app:4443/
         icon: proxmox-light.png
