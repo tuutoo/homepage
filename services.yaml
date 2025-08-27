@@ -84,16 +84,16 @@
         href: https://rancher.home.sohot.app:4443/
         icon: rancher.png
         description: Enterprise Kubernetes Management Platform & Software.
+    - Dashy:
+        href: http://192.168.66.32:4000/
+        icon: dashy.png
+        description: A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!
 
 - Media & Entertainment:
     - Plex:
         href: http://192.168.66.18:32400/
         icon: plex.png
         description: A media server platform.
-    - NAS-Tools:
-        href: http://192.168.66.18:3000/
-        icon: mdi-nas-#f0d453
-        description: Tools for network attached storage management.
     - TaleBook:
         href: http://192.168.66.18:8787/
         icon: /images/tale-book.png
@@ -104,10 +104,6 @@
         description: Sharedrive tool.
 
 - Development & Database Tools:
-    - Alist:
-        href: http://192.168.66.18:5678/
-        icon: /images/alist.png
-        description: A listing tool for developers.
     - pgAdmin:
         href: http://192.168.66.32:5433/login?next=%2F
         icon: pgadmin.png
