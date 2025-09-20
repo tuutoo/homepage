@@ -136,6 +136,10 @@
         href: https://n8n.home.sohot.app:4443/
         icon: n8n.png
         description: Powerful Workflow Automation Software & Tools.
+    - Langflow:
+        href: https://langflow.home.sohot.app/
+        icon: /images/langflow.png
+        description: An open-source, Python-based, customizable framework for building AI applications.
     - HomeAssistant:
         href: http://192.168.66.111:8123/
         icon: home-assistant.png
