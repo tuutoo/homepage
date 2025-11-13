@@ -55,7 +55,7 @@
         icon: openwrt.png
         description: A specific version of OpenWrt.
     - iStore66:
-        href: http://192.168.66.28/
+        href: http://192.168.66.28/cgi-bin/luci/admin/services/openclash
         icon: /images/istore.png
         description: An advanced routers and network management software.
     - iKuai88:
