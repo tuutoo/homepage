@@ -43,17 +43,13 @@
         icon: wireguard.png
         description: A fast and secure VPN solution.
     - WireGuard-66:
-        href: http://192.168.66.25:51021/
+        href: http://192.168.66.28:51021/
         icon: wireguard.png
         description: A fast and secure VPN solution.
     - OpenWrt-88:
         icon: openwrt.png
         href: http://192.168.88.25/cgi-bin/luci/admin/services
         description: A Linux OS for embedded devices.
-    - OpenWrt-66:
-        href: http://192.168.66.25/cgi-bin/luci/admin/services
-        icon: openwrt.png
-        description: A specific version of OpenWrt.
     - iStore66:
         href: http://192.168.66.28/cgi-bin/luci/admin/services/openclash
         icon: /images/istore.png
@@ -80,10 +76,6 @@
         href: http://192.168.66.18:5572/#/dashboard
         icon: rclone.png
         description: A command line program to sync files and directories.
-    - Harbor:
-        href: https://harbor.home.sohot.app:4443/
-        icon: harbor.png
-        description: An open-source container image registry.
     - Rancher:
         href: https://rancher.home.sohot.app:4443/
         icon: rancher.png
