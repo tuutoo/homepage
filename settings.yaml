@@ -9,7 +9,7 @@ providers:
   weatherapi: weatherapiapikey
 
 background:
-  image: https://api.likepoems.com/img/bing/
+  image: http://192.168.66.18:3111/
   #blur: sm # sm, "", md, xl... see https://tailwindcss.com/docs/backdrop-blur
   saturate: 75 # 0, 50, 100... see https://tailwindcss.com/docs/backdrop-saturate
   brightness: 75 # 0, 50, 75... see https://tailwindcss.com/docs/backdrop-brightness
