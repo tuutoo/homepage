@@ -9,8 +9,8 @@ providers:
   weatherapi: weatherapiapikey
 
 background:
-  image: http://192.168.66.18:3111/
+  image: http://192.168.66.18:3111/random-image
   #blur: sm # sm, "", md, xl... see https://tailwindcss.com/docs/backdrop-blur
   saturate: 75 # 0, 50, 100... see https://tailwindcss.com/docs/backdrop-saturate
   brightness: 75 # 0, 50, 75... see https://tailwindcss.com/docs/backdrop-brightness
-  opacity: 75 # 0-100
+  opacity: 45 # 0-100
