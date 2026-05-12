@@ -67,89 +67,11 @@
         icon: traefik.svg
         description: Traefik Dashboard.
 
-- Services:
-    - QNAP:
-        href: http://192.168.66.18:5000/
-        icon: qnap.png
-        description: A network attached storage solution.
-    - Rclone:
-        href: http://192.168.66.18:5572/#/dashboard
-        icon: rclone.png
-        description: A command line program to sync files and directories.
-    - Rancher:
-        href: https://rancher.home.sohot.app:4443/
-        icon: rancher.png
-        description: Enterprise Kubernetes Management Platform & Software.
-    - Dashy:
-        href: http://192.168.66.32:4000/
-        icon: dashy.png
-        description: A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!
-
-- Media & Entertainment:
-    - Plex:
-        href: http://192.168.66.18:32400/
-        icon: plex.png
-        description: A media server platform.
-    - TaleBook:
-        href: http://192.168.66.18:8787/
-        icon: /images/tale-book.png
-        description: An e-book reading and management tool.
-    - BaiduPan:
-        href: http://192.168.66.18:8092/files
-        icon: /images/baidupan.png
-        description: Sharedrive tool.
-
-- Development & Database Tools:
-    - pgAdmin:
-        href: https://pg.home.sohot.app:4443/login?next=%2F
-        icon: pgadmin.png
-        description: A PostgreSQL management tool.
-    - Hasura:
-        href: http://192.168.66.18:8000/console
-        icon: hasura.png
-        description: A platform to build GraphQL apps.
-    - Directus:
-        href: http://192.168.66.32:8055/
-        icon: directus.png
-        description: A headless CMS and API platform.
-    - Tooljet:
-        href: https://tooljet.sohot.app/
-        icon: tooljet.png
-        description: ToolJet is an open-source low-code framework.
-    - NocoDb:
-        href: http://192.168.66.32:1213/
-        icon: nocodb.png
-        description: A database interface tool.
-
-- Download Tools:
-    - qBittorrent:
-        href: http://192.168.66.18:6363/
-        icon: qbittorrent.png
-        description: A BitTorrent client.
-
-- Automation:
-    - n8n:
-        href: https://n8n.home.sohot.app:4443/
-        icon: n8n.png
-        description: Powerful Workflow Automation Software & Tools.
-    - Langflow:
-        href: https://langflow.home.sohot.app/
-        icon: /images/langflow.png
-        description: An open-source, Python-based, customizable framework for building AI applications.
-    - HomeAssistant:
-        href: http://192.168.66.111:8123/
-        icon: home-assistant.png
-        description: A home automation platform.
-    - HomeBridge:
-        href: http://192.168.66.18:8581/
-        icon: homebridge.png
-        description: A home automation platform.
-    - NodeRed:
-        href: http://192.168.66.32:1880/
-        icon: node-red.png
-        description: A flow-based development tool.
-
-- Portainer:
+- Docker Management:
+    - Dockhand:
+        href: https://dockhand.home.sohot.app:4443/
+        icon: dockhand.png
+        description: A docker management tool.
     - Portainer-66.18:
         icon: portainer.png
         href: http://192.168.66.18:9000/
@@ -173,3 +95,71 @@
           url: http://192.168.66.32:9000
           env: 2
           key: {{HOMEPAGE_VAR_PORTAINER_6632_KEY}}
+
+- Media & Entertainment:
+    - Plex:
+        href: http://192.168.66.18:32400/
+        icon: plex.png
+        description: A media server platform.
+
+- Development & Database Tools:
+    - pgAdmin:
+        href: https://pg.home.sohot.app:4443/login?next=%2F
+        icon: pgadmin.png
+        description: A PostgreSQL management tool.
+    - Hasura:
+        href: http://192.168.66.18:8000/console
+        icon: hasura.png
+        description: A platform to build GraphQL apps.
+    - Directus:
+        href: http://192.168.66.32:8055/
+        icon: directus.png
+        description: A headless CMS and API platform.
+    - Tooljet:
+        href: https://tooljet.sohot.app/
+        icon: tooljet.png
+        description: ToolJet is an open-source low-code framework.
+    - NocoDb:
+        href: http://192.168.66.32:1213/
+        icon: nocodb.png
+        description: A database interface tool.
+
+- Automation:
+    - n8n:
+        href: https://n8n.home.sohot.app:4443/
+        icon: n8n.png
+        description: Powerful Workflow Automation Software & Tools.
+    - HomeAssistant:
+        href: http://192.168.66.111:8123/
+        icon: home-assistant.png
+        description: A home automation platform.
+    - HomeBridge:
+        href: http://192.168.66.18:8581/
+        icon: homebridge.png
+        description: A home automation platform.
+    - NodeRed:
+        href: http://192.168.66.32:1880/
+        icon: node-red.png
+        description: A flow-based development tool.
+
+- Services:
+    - QNAP:
+        href: http://192.168.66.18:5000/
+        icon: qnap.png
+        description: A network attached storage solution.
+    - Dashy:
+        href: http://192.168.66.32:4000/
+        icon: dashy.png
+        description: A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!
+    - TaleBook:
+        href: http://192.168.66.18:8787/
+        icon: /images/tale-book.png
+        description: An e-book reading and management tool.
+    - BaiduPan:
+        href: http://192.168.66.18:8092/files
+        icon: /images/baidupan.png
+        description: Sharedrive tool.
+    - qBittorrent:
+        href: http://192.168.66.18:6363/
+        icon: qbittorrent.png
+        description: A BitTorrent client.
