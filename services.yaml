@@ -68,33 +68,26 @@
         description: Traefik Dashboard.
 
 - Docker Management:
-    - Dockhand:
+    - Dockhand-6632:
         href: https://dockhand.home.sohot.app:4443/
         icon: dockhand.png
-        description: A docker management tool.
-    - Portainer-66.18:
-        icon: portainer.png
-        href: http://192.168.66.18:9000/
-        description: 容器管理服务器
-        server: docker-6618
-        container: portainer
+        description: A docker management tool (environment 6632).
         widget:
-          type: portainer
-          url: http://192.168.66.18:9000
-          env: 2
-          key: {{HOMEPAGE_VAR_PORTAINER_6618_KEY}}
-
-    - Portainer-66.32:
-        icon: portainer.png
-        href: http://192.168.66.32:9000/
-        description: 容器管理服务器
-        server: docker-6632
-        container: portainer
+          type: dockhand
+          url: http://192.168.66.32:3002
+          environment: 6632 # optional: name or id; aggregates all when omitted
+          username: tuutoo # required for local auth
+          password: d9@G.syf # required for local auth
+    - Dockhand-6618:
+        href: https://dockhand.home.sohot.app:4443/
+        icon: dockhand.png
+        description: A docker management tool (environment 6618).
         widget:
-          type: portainer
-          url: http://192.168.66.32:9000
-          env: 2
-          key: {{HOMEPAGE_VAR_PORTAINER_6632_KEY}}
+          type: dockhand
+          url: http://192.168.66.32:3002
+          environment: 6618 # optional: name or id; aggregates all when omitted
+          username: tuutoo # required for local auth
+          password: d9@G.syf # required for local auth
 
 - Media & Entertainment:
     - Plex:
