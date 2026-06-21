@@ -3,6 +3,11 @@
 # https://gethomepage.dev/latest/configs/services
 
 - Virtualization Management:
+    - PBS:
+        href: https://pbs.home.sohot.app:4443/
+        icon: proxmox-light.png
+        description: Proxmox Backup Server.
+        ping: 192.168.66.18
     - PVE-21:
         href: https://pve21.home.sohot.app:4443/
         icon: proxmox-light.png
@@ -148,10 +153,6 @@
         href: http://192.168.66.18:8787/
         icon: /images/tale-book.png
         description: An e-book reading and management tool.
-    - BaiduPan:
-        href: http://192.168.66.18:8092/files
-        icon: /images/baidupan.png
-        description: Sharedrive tool.
     - qBittorrent:
         href: http://192.168.66.18:6363/
         icon: qbittorrent.png
